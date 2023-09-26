@@ -1,5 +1,5 @@
 {% set name = "colcon-bash" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colcon-bash-{{ version }}.tar.gz
-  sha256: 86950ca62293b655ef8d655d2994d110321fff2fc6739c46a64f005a0cee1bdd
+  sha256: 29a223a66828e18aad9b8db5087f7114e388601830091830ca17b095ada2cbac
 
 build:
   noarch: python
